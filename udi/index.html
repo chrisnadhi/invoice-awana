@@ -1,0 +1,101 @@
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Invoice</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="asset/style.css">
+		<link rel="license" href="https://www.opensource.org/licenses/mit-license/">
+		<script src="asset/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<!-- <img alt="" src="asset/logo.png"> -->
+			<h2 class="title"><img src="asset/logo.jpg"></h2>
+			<h1>Invoice</h1>
+		</header>
+		<article>
+			<h3>Bill to:</h3>
+			<address contenteditable>
+				<p>Client Name<br>Client Company</p>
+			</address>
+			<table class="meta">
+				<tr>
+					<th><span contenteditable>Invoice #</span></th>
+					<td><span contenteditable>01/IN/HS/XI/2025</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Date</span></th>
+					<td><span contenteditable>January 1, 2025</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Amount Due</span></th>
+					<td><span id="prefix">Rp</span><span>600000</span></td>
+				</tr>
+			</table>
+			<table class="inventory">
+				<thead>
+					<tr>
+						<th style="width: 30px"><span contenteditable>No</span></th>
+						<th style="width: 360px; text-align: left;"><span contenteditable>Description</span></th>
+						<th style="text-align: right; width: 100px;"><span contenteditable>Unit Price</span></th>
+						<th style="text-align: center;"><span contenteditable>Qty</span></th>
+						<th style="text-align: right; width: 100px;"><span contenteditable>Price</span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a class="cut">-</a><span contenteditable>1</span></td>
+						<td><span contenteditable>1 Unit Awana Farmhouse 2 Dewasa<br>
+Check-in 12 Desember 2024<br>
+Check-out 15 Desember 2024</span></td>
+						<td><span data-prefix>Rp</span><span contenteditable>500000</span></td>
+						<td style="text-align: center;"><span contenteditable>1</span></td>
+						<td><span data-prefix>Rp</span><span>500000</span></td>
+					</tr>
+				</tbody>
+			</table>
+			<a class="add">+</a>
+			<table class="payment">
+				<tr>
+					<th rowspan="3">Payment Method: <br>Cash or Bank Transfer</th>
+					<td>
+						<p><b>BCA :<br>235 0418 221</b><br>ADE CHRISNADHI<br><br></p>
+						<p><b>MANDIRI :<br>137 000 4916 736</b><br>ADE CHRISNADHI<br><br></p>
+					</td>
+				</tr>
+			</table>
+			<table class="balance">
+				<tr>
+					<th><span contenteditable>Gross Total</span></th>
+					<td><span data-prefix>Rp</span><span>600000</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Discount</span></th>
+					<td><span data-prefix>Rp</span><span contenteditable>0</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Total</span></th>
+					<td><span data-prefix>Rp</span><span>600000</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Amount Paid</span></th>
+					<td><span data-prefix>Rp</span><span contenteditable>0</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Amount Due</span></th>
+					<td><span data-prefix>Rp</span><span>600000</span></td>
+				</tr>
+			</table>
+		</article>
+			<div class="hormat">
+				<!-- <img class="stamp" src="asset/stamp.png"> -->
+				<p>Hormat kami,</p>
+				<p>Awana Farmhouse Dieng</p>
+			</div>		
+		<aside>
+			<h2>Awana Farmhouse Dieng</h2>
+			<p>Jl. Arjuna Barat, Karangsari, Dieng Kulon, Kec. Batur, Kab. Banjarnegara, Jawa Tengah 53456<br><b>WA: 0811 270 677 - WEBSITE: www.awana.house</b></p>
+		</aside>
+	</body>
+</html>
